@@ -180,11 +180,8 @@ section {
   aspect-ratio: 4 / 3;
   background: linear-gradient(135deg, #E8E5DC, #DEDAD1);
   border-radius: 4px;
-  overflow: hidden;               /* neu: schneidet Überstand ab */
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  padding: 1rem;
+  overflow: hidden;
+  padding: 0;              /* geändert von 1rem */
   margin-bottom: 1.25rem;
 }
 
